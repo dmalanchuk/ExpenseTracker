@@ -6,7 +6,7 @@ from func.load_json import load_json
 def add_ex_tracker():
     desc = input('enter description: ')
     cost = input('enter cost: ')
-    date_now = datetime.now().strftime('%Y-%m-%d %H:%M:%S') 
+    date_now = datetime.now().strftime('%c') 
     
     name_json = 'data/expense.json'
     expenses = load_json(name_json)
