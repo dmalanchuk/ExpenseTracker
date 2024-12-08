@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "description": "coffe",
+        "ammout": "10",
+        "data": "2024-12-09 01:38:02"
+    },
+    {
+        "id": 2,
+        "description": "lunch",
+        "ammout": "20",
+        "data": "2024-12-09 01:41:11"
+    },
+    {
+        "id": 3,
+        "description": "dinner",
+        "ammout": "15",
+        "data": "2024-12-09 01:41:42"
+    }
+]
