@@ -28,5 +28,35 @@
         "description": "lunch",
         "ammout": "15",
         "data": "Mon Dec  9 01:43:57 2024"
+    },
+    {
+        "id": 6,
+        "description": "lunch",
+        "ammout": "15",
+        "data": "Tue Dec 10 03:35:38 2024"
+    },
+    {
+        "id": 7,
+        "description": "coffe",
+        "ammout": "60",
+        "data": "Tue Dec 10 14:28:25 2024"
+    },
+    {
+        "id": 8,
+        "description": "coffe",
+        "ammout": "20",
+        "data": "Tue Dec 10 14:52:14 2024"
+    },
+    {
+        "id": 9,
+        "description": "1",
+        "ammout": "10",
+        "data": "Tue Dec 10 14:52:23 2024"
+    },
+    {
+        "id": 10,
+        "description": "croussan",
+        "ammout": "35",
+        "data": "Tue Dec 10 15:05:04 2024"
     }
 ]
