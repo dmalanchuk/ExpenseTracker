@@ -17,9 +17,9 @@ def add_ex_tracker():
         id = max((expense['id'] for expense in expenses), default=0)
         
         if isinstance(desc, str) and isinstance(cost, int):
-            print("Умови виконано успішно.")
+            print("Conditions fulfilled successfully.")
         else:
-            raise ValueError("desc має бути рядком, а ammout — цілим числом.")
+            raise ValueError("desc  -- string, ammout -- integer")
         
         new_expense = {
             'id':  id + 1,

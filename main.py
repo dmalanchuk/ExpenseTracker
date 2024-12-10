@@ -11,7 +11,7 @@ if __name__ == '__main__':
         elif choose in ('del', 'd'):
             del_et_func()
         elif choose == 'exit':
-            print('Thanks, Bye!')
+            print('The program has completed its work')
             break
         else:
             print('incorrect choose')

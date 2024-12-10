@@ -8,18 +8,21 @@ def del_et_func():
     
     try:
         del_in = int(del_in)
+    
     except ValueError as ve:
-        print(f'error: {ve}')
+        print(f'incorrect value - {ve}')
         
-    if not expenses['id']:
-        print('ID is not')
+    if not isinstance(expenses, list):
+         print("Error: The data in 'expense.json' is not a valid list.")
+         
+    remove_id_expense = [i for i in expenses if i.get('id') == del_in]
+    
+    if not remove_id_expense:
+        print(f'ID {del_in} not founded')
         
-    for item in expenses:
-        if item['id'] == del_in:
-            expenses.remove(item)
-        
-    with open('data/expense.json', 'w') as file:
-        json.dump(expenses, file, indent=4)
-        
-        
+    expenses = [i for i in expenses if i.get('id') != del_in]
+    
+    with open('data/expense.json', 'w') as f:
+        json.dump(expenses, f, indent=4)
+        print(f'ID {del_in} Successfully deleted.')
         
