@@ -6,7 +6,7 @@ from func import sum_list
 
 if __name__ == '__main__':
     while True:
-        choose = input('Select an action (add/a), (del/d), (list/l), (sum/s), (exit/e): ').strip().lower()
+        choose = input('(add/a), \n(del/d), \n(list/l), \n(sum/s), \n(update/u), \n(exit/e) \nSelect an action:').strip().lower()
         
         if choose in ('add', 'a'):
             add_ex_tracker()
@@ -16,6 +16,8 @@ if __name__ == '__main__':
             list_et()
         elif choose in ('sum', 's'):
             sum_list()
+        elif choose in ('update', 'u'):
+            pass
         elif choose in ('exit', 'e'):
             print('The program has completed its work')
             break
